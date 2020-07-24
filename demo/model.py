@@ -227,7 +227,7 @@ def random(bs=1, eps_std=0.7):
 
 
 def test():
-    img = Image.open('test/img.png')
+    img = Image.open('test/0009_2m_-15P_-10V_-10H.jpg')
     img = np.reshape(np.array(img), [1, 256, 256, 3])
 
     # Encoding speed
